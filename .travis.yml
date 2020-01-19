@@ -1,4 +1,4 @@
 language: swift
 xcode_project: UL_Challange.xcodeproj
-xcode_scheme: UL_ChallangeTests
+xcode_scheme: UL_Challange
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone11
