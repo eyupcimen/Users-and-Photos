@@ -21,8 +21,6 @@
 		CE2ECE3923D41ECF00A593DD /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE3823D41ECF00A593DD /* PhotoDetailViewModel.swift */; };
 		CE2ECE4123D4253500A593DD /* UL_ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE4023D4253500A593DD /* UL_ChallangeTests.swift */; };
 		CE2ECE5023D42FD200A593DD /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = CE2ECE4B23D42FD200A593DD /* users.json */; };
-		CE2ECE5123D42FD200A593DD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE4C23D42FD200A593DD /* Movie.swift */; };
-		CE2ECE5323D42FD200A593DD /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = CE2ECE4E23D42FD200A593DD /* posts.json */; };
 		CE2ECE5423D42FD200A593DD /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE4F23D42FD200A593DD /* ResourceLoader.swift */; };
 		CE2ECE5823D4308A00A593DD /* MockUserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE5723D4308A00A593DD /* MockUserListService.swift */; };
 		CE2ECE5A23D459BC00A593DD /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE5923D459BC00A593DD /* Array+Extension.swift */; };
@@ -96,8 +94,6 @@
 		CE2ECE4023D4253500A593DD /* UL_ChallangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UL_ChallangeTests.swift; sourceTree = "<group>"; };
 		CE2ECE4223D4253500A593DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE2ECE4B23D42FD200A593DD /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
-		CE2ECE4C23D42FD200A593DD /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		CE2ECE4E23D42FD200A593DD /* posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
 		CE2ECE4F23D42FD200A593DD /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
 		CE2ECE5723D4308A00A593DD /* MockUserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserListService.swift; sourceTree = "<group>"; };
 		CE2ECE5923D459BC00A593DD /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
@@ -224,7 +220,6 @@
 			children = (
 				CE2ECE5623D42FE900A593DD /* ResourceLoader */,
 				CE2ECE5523D42FDD00A593DD /* Mocks */,
-				CE2ECE4C23D42FD200A593DD /* Movie.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -233,7 +228,6 @@
 			isa = PBXGroup;
 			children = (
 				CE2ECE4B23D42FD200A593DD /* users.json */,
-				CE2ECE4E23D42FD200A593DD /* posts.json */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -521,7 +515,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2ECE5023D42FD200A593DD /* users.json in Resources */,
-				CE2ECE5323D42FD200A593DD /* posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +595,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2ECE5123D42FD200A593DD /* Movie.swift in Sources */,
 				CE2ECE5423D42FD200A593DD /* ResourceLoader.swift in Sources */,
 				CE2ECE4123D4253500A593DD /* UL_ChallangeTests.swift in Sources */,
 			);

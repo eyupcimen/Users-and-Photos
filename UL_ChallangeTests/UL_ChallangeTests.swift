@@ -26,20 +26,18 @@ class UL_ChallangeTests: XCTestCase {
 
     func testLoad() {
         
-        let users = try ResourceLoader.loadData(resource: .users)
-        let posts = try ResourceLoader.loadData(resource: .posts)
-        viewModel.users = [users]
-        
-        
-        XCTAssertEqual(try viewModel.hudShow, true)
-        XCTAssertEqual(try viewModel.users.count, 1)
+        XCTAssertEqual(viewModel.hudShow, false)
+        do {
+            let users = try ResourceLoader.loadData(resource: .users)
+            XCTAssertEqual(users.id, 1)
+        } catch {
+            XCTFail()
+        }
     }
 }
 
 private class MockViewModel : BaseViewModel {
     
-    private let service : MockNetworkService!
-    var viewModel : UserListViewModel!
-    var users : [UserObject] = []
-    
+    private let service = MockNetworkService()
+    var users : [User] = []
 }
