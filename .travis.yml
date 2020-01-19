@@ -1,3 +1,4 @@
+os: osx
 language: swift
 xcode_project: UL_Challange.xcodeproj
 xcode_scheme: UL_Challange
