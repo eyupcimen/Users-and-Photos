@@ -1,5 +1,6 @@
 os: osx
 language: swift
-xcode_project: UL_Challange.xcodeproj
+osx_image: xcode11
+xcode_project: UL_Challange.xcworkspace
 xcode_scheme: UL_Challange
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone11
+xcode_destination: platform=iOS Simulator,OS=10.3,name=iPad Pro (9.7-inch)
