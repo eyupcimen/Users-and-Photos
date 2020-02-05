@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface GMSPanoramaLink : NSObject
 
 /** Angle of the neighboring panorama, clockwise from north in degrees. */
-@property(nonatomic) CGFloat heading;
+@property(nonatomic, assign) CGFloat heading;
 
 /**
  * Panorama ID for the neighboring panorama.

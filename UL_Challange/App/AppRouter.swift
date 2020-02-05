@@ -27,13 +27,3 @@ final class AppRouter {
     }
 }
 
-
-extension UINavigationController {
-    
-    func openController(from storyboard: UIStoryboard, withIdentifier identifier: String, animated: Bool = true) {
-        let viewController = storyboard.instantiateViewController(withIdentifier: identifier)
-        pushViewController(viewController, animated: animated)
-    }
-}
-
-

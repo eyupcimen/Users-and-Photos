@@ -15,6 +15,11 @@
 
 #import "GoogleMapsDemos/Samples/BasicMapViewController.h"
 
+#import <GoogleMaps/GoogleMaps.h>
+
+@interface BasicMapViewController () <GMSMapViewDelegate>
+@end
+
 @implementation BasicMapViewController {
   UILabel *_statusLabel;
 }

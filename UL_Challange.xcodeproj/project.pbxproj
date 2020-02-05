@@ -64,6 +64,7 @@
 		CEC8274823D3634D00EA9882 /* PostCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC8274723D3634D00EA9882 /* PostCommentResponse.swift */; };
 		CEC8274A23D36F9100EA9882 /* CommentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC8274923D36F9100EA9882 /* CommentDetailViewController.swift */; };
 		CEC8274D23D36FAF00EA9882 /* CommentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC8274C23D36FAF00EA9882 /* CommentDetailViewModel.swift */; };
+		D075CE2523D65CDC00198DC2 /* Navıgation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075CE2423D65CDC00198DC2 /* Navıgation+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		CEC8274723D3634D00EA9882 /* PostCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentResponse.swift; sourceTree = "<group>"; };
 		CEC8274923D36F9100EA9882 /* CommentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDetailViewController.swift; sourceTree = "<group>"; };
 		CEC8274C23D36FAF00EA9882 /* CommentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDetailViewModel.swift; sourceTree = "<group>"; };
+		D075CE2423D65CDC00198DC2 /* Navıgation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navıgation+Extension.swift"; sourceTree = "<group>"; };
 		FD0588A3EAEEFB61CBB99FD6 /* Pods_UL_Challange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UL_Challange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -275,6 +277,7 @@
 				CEC8274B23D36F9500EA9882 /* CommentDetail */,
 				CE2ECE2123D3735400A593DD /* Albums */,
 				CE2ECE2A23D397F500A593DD /* Photos */,
+				CE2ECE3523D41EA500A593DD /* PhotoDetail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				CE7095C123D24E4A00812A08 /* GenericTypes.swift */,
 				CE2ECE5923D459BC00A593DD /* Array+Extension.swift */,
 				CE2ECE5D23D45B1C00A593DD /* Optional+Extension.swift */,
+				D075CE2423D65CDC00198DC2 /* Navıgation+Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -393,7 +397,6 @@
 			children = (
 				CEB3B78223D20EF100628CAF /* App */,
 				CEB3B78723D20FB200628CAF /* Scenes */,
-				CE2ECE3523D41EA500A593DD /* PhotoDetail */,
 				CEB3B78823D2104B00628CAF /* NetworkLayer */,
 				CEB3B78923D2105800628CAF /* Helper */,
 				CEB3B78B23D2107B00628CAF /* Resources */,
@@ -629,6 +632,7 @@
 				CE2ECE2E23D3981200A593DD /* PhotosViewModel.swift in Sources */,
 				CE7095D723D251FA00812A08 /* UserGeo.swift in Sources */,
 				CEC8274D23D36FAF00EA9882 /* CommentDetailViewModel.swift in Sources */,
+				D075CE2523D65CDC00198DC2 /* Navıgation+Extension.swift in Sources */,
 				CE2ECE2923D38D0800A593DD /* AlbumsResponse.swift in Sources */,
 				CEB3B79123D2110C00628CAF /* NetworkService.swift in Sources */,
 				CE7095DF23D25A8100812A08 /* UserDetailViewController.swift in Sources */,

@@ -1,10 +1,10 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (4.8.2)
   - ASProgressHud (1.0.5)
-  - GoogleMaps (3.7.0):
-    - GoogleMaps/Maps (= 3.7.0)
-  - GoogleMaps/Base (3.7.0)
-  - GoogleMaps/Maps (3.7.0):
+  - GoogleMaps (3.3.0):
+    - GoogleMaps/Maps (= 3.3.0)
+  - GoogleMaps/Base (3.3.0)
+  - GoogleMaps/Maps (3.3.0):
     - GoogleMaps/Base
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
@@ -12,11 +12,10 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
   - Result (4.1.0)
-  - SDWebImage (5.5.0):
-    - SDWebImage/Core (= 5.5.0)
-  - SDWebImage/Core (5.5.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
   - SVProgressHUD (2.2.6)
-  - SwiftLint (0.38.2)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
@@ -25,18 +24,16 @@ DEPENDENCIES:
   - Moya (~> 13.0)
   - SDWebImage
   - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
-  - SwiftLint
   - SwiftyJSON
 
 SPEC REPOS:
-  trunk:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - ASProgressHud
     - GoogleMaps
     - Moya
     - Result
     - SDWebImage
-    - SwiftLint
     - SwiftyJSON
 
 EXTERNAL SOURCES:
@@ -49,16 +46,15 @@ CHECKOUT OPTIONS:
     :git: https://github.com/SVProgressHUD/SVProgressHUD.git
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   ASProgressHud: 170e18e72af3ffb28d36fd6e6d9caf998762ff58
-  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GoogleMaps: cfee83da305b9aaeccf92c24ac79df11c3003492
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  SDWebImage: 86589f0d47a7de15827640c71813e23fd428965c
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
   SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
-  SwiftLint: 8f5d2f903e1c9bcbc832fd16771e80a263ac6cbb
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 04725895948dd2b18a1fba7763a02f0697c3f845
+PODFILE CHECKSUM: 2043eb842d5179038a9f32f6b5e0b5fac2292303
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.7.5
