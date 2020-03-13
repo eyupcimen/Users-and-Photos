@@ -8,6 +8,7 @@
 
 import UIKit
 import SVProgressHUD
+import AppSpectorSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         app.router.mainTabbarBuild()
         SVProgressHUD.setOffsetFromCenter(UIOffset(horizontal: UIScreen.main.bounds.width / 2,
         vertical: UIScreen.main.bounds.height / 2))
+        
+        let config = AppSpectorConfig(apiKey: "YOUR_API_KEY")
+        AppSpector.run(with: config)
+        
         return true
     }
 }

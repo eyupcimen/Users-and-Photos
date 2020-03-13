@@ -463,7 +463,7 @@
 				CEB51E9123D201A600254322 /* Frameworks */,
 				CEB51E9223D201A600254322 /* Resources */,
 				B5D2D95E04041996F0546AEF /* [CP] Embed Pods Frameworks */,
-				D355907D195BFF2C06DE5F64 /* [CP] Copy Pods Resources */,
+				FB5E9D00BB90666FAFE6B6E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -574,7 +574,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UL_Challange/Pods-UL_Challange-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D355907D195BFF2C06DE5F64 /* [CP] Copy Pods Resources */ = {
+		FB5E9D00BB90666FAFE6B6E1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -852,14 +852,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8885NUL475;
+				DEVELOPMENT_TEAM = JYS3253RH2;
 				INFOPLIST_FILE = UL_Challange/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ims-ul";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globme.timeware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -879,7 +879,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ims-ul";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globme.timeware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

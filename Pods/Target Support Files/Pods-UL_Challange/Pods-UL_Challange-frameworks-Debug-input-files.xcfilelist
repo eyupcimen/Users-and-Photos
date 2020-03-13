@@ -1,6 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-UL_Challange/Pods-UL_Challange-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/ASProgressHud/ASProgressHud.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${PODS_ROOT}/AppSpectorSDK/AppSpectorSDK.framework
 ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
 ${BUILT_PRODUCTS_DIR}/Result/Result.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
