@@ -11,10 +11,11 @@ import UIKit
 
 class MainTabbar: UITabBarController {
     
+    var tabbarItems : [UITabBarItem] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var tabbarItems : [UITabBarItem] = []
         let mainVC = UserListBuilder.makeUserList()
         let barItem = UITabBarItem(title: "Users" , image: UIImage(named: "profile_disable") , selectedImage: UIImage(named: "profile_enable") )
         barItem.tag = 0

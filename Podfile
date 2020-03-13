@@ -9,6 +9,6 @@ pod 'Moya', '~> 13.0'
 pod 'SDWebImage'
 pod 'SwiftyJSON'
 pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
-pod 'AppSpectorSDK'
+#pod 'AppSpectorSDK'
 
 end

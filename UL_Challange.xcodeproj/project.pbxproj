@@ -19,12 +19,12 @@
 		CE2ECE3423D3A75200A593DD /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE3323D3A75200A593DD /* PhotoCell.swift */; };
 		CE2ECE3723D41EBA00A593DD /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE3623D41EBA00A593DD /* PhotoDetailViewController.swift */; };
 		CE2ECE3923D41ECF00A593DD /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE3823D41ECF00A593DD /* PhotoDetailViewModel.swift */; };
-		CE2ECE4123D4253500A593DD /* UL_ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE4023D4253500A593DD /* UL_ChallangeTests.swift */; };
 		CE2ECE5023D42FD200A593DD /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = CE2ECE4B23D42FD200A593DD /* users.json */; };
 		CE2ECE5423D42FD200A593DD /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE4F23D42FD200A593DD /* ResourceLoader.swift */; };
 		CE2ECE5823D4308A00A593DD /* MockUserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE5723D4308A00A593DD /* MockUserListService.swift */; };
 		CE2ECE5A23D459BC00A593DD /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE5923D459BC00A593DD /* Array+Extension.swift */; };
 		CE2ECE5E23D45B1C00A593DD /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECE5D23D45B1C00A593DD /* Optional+Extension.swift */; };
+		CE5B229D241BAFE70050DD8A /* MainTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B229C241BAFE70050DD8A /* MainTabbarTests.swift */; };
 		CE7095C223D24E4A00812A08 /* GenericTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7095C123D24E4A00812A08 /* GenericTypes.swift */; };
 		CE7095D723D251FA00812A08 /* UserGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7095D323D251F900812A08 /* UserGeo.swift */; };
 		CE7095D823D251FA00812A08 /* UserCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7095D423D251F900812A08 /* UserCompany.swift */; };
@@ -92,13 +92,13 @@
 		CE2ECE3623D41EBA00A593DD /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		CE2ECE3823D41ECF00A593DD /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
 		CE2ECE3E23D4253500A593DD /* UL_ChallangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UL_ChallangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE2ECE4023D4253500A593DD /* UL_ChallangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UL_ChallangeTests.swift; sourceTree = "<group>"; };
 		CE2ECE4223D4253500A593DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE2ECE4B23D42FD200A593DD /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		CE2ECE4F23D42FD200A593DD /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
 		CE2ECE5723D4308A00A593DD /* MockUserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserListService.swift; sourceTree = "<group>"; };
 		CE2ECE5923D459BC00A593DD /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		CE2ECE5D23D45B1C00A593DD /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		CE5B229C241BAFE70050DD8A /* MainTabbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarTests.swift; sourceTree = "<group>"; };
 		CE7095C123D24E4A00812A08 /* GenericTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypes.swift; sourceTree = "<group>"; };
 		CE7095D323D251F900812A08 /* UserGeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserGeo.swift; sourceTree = "<group>"; };
 		CE7095D423D251F900812A08 /* UserCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCompany.swift; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 		CE2ECE3F23D4253500A593DD /* UL_ChallangeTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE2ECE4023D4253500A593DD /* UL_ChallangeTests.swift */,
+				CE5B229C241BAFE70050DD8A /* MainTabbarTests.swift */,
 				CE2ECE4223D4253500A593DD /* Info.plist */,
 			);
 			path = UL_ChallangeTests;
@@ -599,7 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2ECE5423D42FD200A593DD /* ResourceLoader.swift in Sources */,
-				CE2ECE4123D4253500A593DD /* UL_ChallangeTests.swift in Sources */,
+				CE5B229D241BAFE70050DD8A /* MainTabbarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (4.8.2)
-  - AppSpectorSDK (1.2.9)
   - ASProgressHud (1.0.5)
   - GoogleMaps (3.8.0):
     - GoogleMaps/Maps (= 3.8.0)
@@ -20,7 +19,6 @@ PODS:
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - AppSpectorSDK
   - ASProgressHud (~> 1.0)
   - GoogleMaps
   - Moya (~> 13.0)
@@ -36,7 +34,6 @@ SPEC REPOS:
     - SDWebImage
     - SwiftyJSON
   trunk:
-    - AppSpectorSDK
     - ASProgressHud
     - GoogleMaps
 
@@ -51,7 +48,6 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  AppSpectorSDK: 7e24097809d39d868e9ecdc76377fd519ac95aa6
   ASProgressHud: 170e18e72af3ffb28d36fd6e6d9caf998762ff58
   GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
@@ -60,6 +56,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 1cdcef04c77c7d74fff8fb4e72805ac5e8ec5329
+PODFILE CHECKSUM: f11ba2454e90d44c4a6d55d4b2b9341bd196ede7
 
 COCOAPODS: 1.8.4
